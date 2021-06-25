@@ -87,7 +87,6 @@ public class Tutorials {
 
 **/
 
-        System.out.println("added");
 
      //q4
 
