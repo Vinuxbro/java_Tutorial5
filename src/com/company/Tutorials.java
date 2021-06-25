@@ -62,6 +62,7 @@ public class Tutorials {
 
 
 **/
+        //q3
 
      /**
         double[] num=new double[100];
@@ -85,6 +86,11 @@ public class Tutorials {
 
 
 **/
+
+        System.out.println("added");
+
+     //q4
+
 
 
 
