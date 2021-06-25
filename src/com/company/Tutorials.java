@@ -1,5 +1,6 @@
 package com.company;
 
+import javax.print.DocFlavor;
 import java.util.*;
 
 import static java.util.Arrays.sort;
@@ -174,11 +175,28 @@ public class Tutorials {
 
 
 //Q8
-        /* Arrays are passed by reference */
+        /**
+        // Arrays are passed by reference //
         short [] array={1,2,3,4};
-        System.out.println(array); /** reference will be displayed as the output **/
+        System.out.println(array); // reference will be displayed as the output //
         System.out.println(Arrays.toString(array));
 
+        **/
+
+
+  //Q9
+       int[]numbers={1,2,3,4,5};
+       for (int i=0;i<numbers.length;i++){
+           for (int j=0;i>=j;j++){
+               if (j!=i){
+                   if (numbers[i]+numbers[j]==6){
+                       System.out.println("{"+numbers[i]+","+numbers[j]+"}");
+                   }
+               }
+
+               }
+           }
+       }
 
 
 
@@ -189,7 +207,8 @@ public class Tutorials {
 
 
 
-    }
+
+
 
     //Q6 method
     static double[] swap(double[] num) {
