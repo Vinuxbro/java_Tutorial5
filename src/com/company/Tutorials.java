@@ -153,6 +153,8 @@ public class Tutorials {
         swap(num);
         System.out.println(Arrays.toString(num));
  **/
+/**
+
         double[] myNamesArray=new double[10];
 
         for (int i=0;i<10;i++) {
@@ -167,6 +169,20 @@ public class Tutorials {
         Arrays.sort(myNamesArrayList);
         System.out.println("myNamesArray = "+Arrays.toString(myNamesArray));
         System.out.println("myNamesArrayList = "+Arrays.toString((myNamesArrayList)));
+
+ **/
+
+
+//Q8
+        /* Arrays are passed by reference */
+        short [] array={1,2,3,4};
+        System.out.println(array); /** reference will be displayed as the output **/
+        System.out.println(Arrays.toString(array));
+
+
+
+
+
 
 
 
