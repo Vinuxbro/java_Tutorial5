@@ -9,7 +9,7 @@ public class Tutorials {
     public static void main(String[] args){
 
    /**     //Q1
-        int[] tot = new int[10];
+        int[] tot = new int[10];dddddddd
         int fail_Num = 0;
 
         for (int n=0;n<10;n++)
