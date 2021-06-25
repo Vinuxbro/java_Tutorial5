@@ -136,6 +136,8 @@ public class Tutorials {
 
 
 **/
+
+/**
  //q6
 
         double[] num=new double[20];
@@ -150,6 +152,25 @@ public class Tutorials {
         }
         swap(num);
         System.out.println(Arrays.toString(num));
+ **/
+        double[] myNamesArray=new double[10];
+
+        for (int i=0;i<10;i++) {
+            Scanner mark = new Scanner(System.in);
+            System.out.print("Enter your Mark:");
+            double marks = mark.nextDouble();
+
+            myNamesArray[i]=marks;
+
+        }
+        double[] myNamesArrayList=myNamesArray.clone();
+        Arrays.sort(myNamesArrayList);
+        System.out.println("myNamesArray = "+Arrays.toString(myNamesArray));
+        System.out.println("myNamesArrayList = "+Arrays.toString((myNamesArrayList)));
+
+
+
+
 
 
     }
