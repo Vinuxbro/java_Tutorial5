@@ -1,7 +1,5 @@
 package com.company;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.*;
 
 import static java.util.Arrays.sort;
@@ -103,7 +101,10 @@ public class Tutorials {
 
  **/
 
+/**
+
 //q5
+
 
         double[] num=new double[20];
 
@@ -134,12 +135,42 @@ public class Tutorials {
 
 
 
+**/
+ //q6
 
+        double[] num=new double[5];
 
+        for (int i=0;i<5;i++) {
+            Scanner mark = new Scanner(System.in);
+            System.out.print("Enter your Mark:");
+            double marks = mark.nextDouble();
 
+            num[i]=marks;
 
-
+        }
+        swap(num);
+        System.out.println(Arrays.toString(num));
 
 
     }
+
+    //Q6 method
+    static double[] swap(double[] num) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter your i:");
+        int i = input.nextInt();
+
+        Scanner input2 = new Scanner(System.in);
+        System.out.print("Enter your j:");
+        int j = input2.nextInt();
+        double x = num[i];
+        double y = num[j];
+
+        num[i] = y;
+        num[j] = x;
+        return num;
+
+
+    }
+
 }
