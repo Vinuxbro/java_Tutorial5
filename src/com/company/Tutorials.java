@@ -42,7 +42,7 @@ public class Tutorials {
             int marks = mark.nextInt();
 
 
-            final_Num=marks-((marks*10)/100);
+             final_Num=marks-((marks*10)/100);
 
             if (final_Num<40){
                 fail_Num+=1;
@@ -185,18 +185,20 @@ public class Tutorials {
 
 
   //Q9
-       int[]numbers={1,2,3,4,5};
+       int[]numbers={1,2,3,4,5,6,7,8,9,10};
        for (int i=0;i<numbers.length;i++){
            for (int j=0;i>=j;j++){
                if (j!=i){
-                   if (numbers[i]+numbers[j]==6){
+                   if (numbers[i]+numbers[j]==10){
                        System.out.println("{"+numbers[i]+","+numbers[j]+"}");
+                   }
+
                    }
                }
 
                }
            }
-       }
+       
 
 
 
