@@ -138,7 +138,7 @@ public class Tutorials {
 **/
  //q6
 
-        double[] num=new double[5];
+        double[] num=new double[20];
 
         for (int i=0;i<5;i++) {
             Scanner mark = new Scanner(System.in);
